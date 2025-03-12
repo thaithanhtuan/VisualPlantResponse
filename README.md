@@ -168,11 +168,7 @@ python monitoringKeypoint.py
 ```
 ## To Calculate moving distance in 60 seconds
 
-Set the image timelapse folder
-
-Set the label.txt file
-
-Set the output folder
+Set the input file and output file:
 
 ```
 movingspeed_csv = "Flower timelapse/Crop2/output/movingspeed.csv"
