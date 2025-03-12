@@ -96,4 +96,7 @@ zipp               3.15.0
 https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=sharing
 
 # Output trajectories
-
+<div align="center">
+  <img src="images/trajectories.jpg" width="576px" />
+    <p>Trajectories of plant movement from above video.</p>
+</div>
