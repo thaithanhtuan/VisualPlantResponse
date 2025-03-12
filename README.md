@@ -103,9 +103,11 @@ https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=shari
 # How to run the code
 ## Combine time lapse images into videos
 Because the camera in Raspberry pi can place in vertical or horizontal direction, we need to set the rotation of the code, after changing to input directory and output video path.
+
 ```
 python Make_video.py
 ```
+
 ## Run the interest Point Selection Tool
 Changing the code and set:
 
@@ -123,12 +125,12 @@ Set the image timelapse folder
 Set the label.txt file
 
 Set the output folder
+
 ```
 python monitoringKeypoint.py
 ```
 ## Citation
 If this code helps your research, please cite our paper:
-
 	@inproceedings{thaiplantphenomics,
 		title={Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress},
 		author={Thanh Tuan Thai and Jeong-Ho Baek and Sheikh Mansoor and E. M. B. M. Karunathilake and Anh Tuan Le and Sulieman Al-Faifi and Faheem Shehzad Baloch and Jinhyun Ahn and Yong Suk Chung},
