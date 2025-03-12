@@ -1,12 +1,14 @@
 # VisualPlantResponse
 This github is generate for the paper "Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress"
 <div align="center">
-  <img src="Images/Point monitoring diagram.drawio.png" width="100%" />
+  	<img src="Images/Point monitoring diagram.drawio.png" width="100%" />
+	<p>Optical Flow-based plant motion tracking pipeline</p>
 </div>
 
-# Google drive link Data
+# Google drive link to Vitual Plant Response Phenomics Dataset
 <div align="center">
-  <img src="Images/System design.png" width="576px" />
+  	<img src="Images/System design.png" width="576px" />
+	<p>A controlled timelapse image acquisition system</p>
 </div>
 
 All Original data and generated data (Crop image, "angle, moving point, moving distance".csv, label.txt) are keep in this drive.
@@ -129,7 +131,8 @@ python Make_video.py
 
 ## Run the interest Point Selection Tool
 <div align="center">
-  <img src="Images/Point Selection tool.drawio.png" width="576px" />
+  	<img src="Images/Point Selection tool.drawio.png" width="576px" />
+	<p>Point selection tool flow diagram</p>
 </div>
 
 Changing the code and set:
