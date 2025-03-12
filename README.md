@@ -107,6 +107,7 @@ https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=shari
   <img src="Images/trajectories.jpg" width="576px" />
     <p>Trajectories of plant movement from above video.</p>
 </div>
+
 # How to run the code
 
 ## Combine time lapse images into videos (For Visualization Only)
@@ -165,6 +166,27 @@ Then run the script:
 ```
 python monitoringKeypoint.py
 ```
+## To Calculate moving distance in 60 seconds
+
+Set the image timelapse folder
+
+Set the label.txt file
+
+Set the output folder
+
+```
+movingspeed_csv = "Flower timelapse/Crop2/output/movingspeed.csv"
+movingspeed_60_csv = "Flower timelapse/Crop2/output/movingspeed_60.csv"
+movingdistance_csv = "Flower timelapse/Crop2/output/movingdistance.csv"
+input_distance_csv = "Flower timelapse/Crop2/output/movingdistance.csv"
+output_distance_60_csv = "Flower timelapse/Crop2/output/movingdistance_60.csv"
+
+```
+
+```
+python distance.py
+```
+
 ## To Calculate Optical flow between two frame (for visualization)
 
 ```
