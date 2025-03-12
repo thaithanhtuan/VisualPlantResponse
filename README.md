@@ -188,7 +188,7 @@ output_distance_60_csv = "Flower timelapse/Crop2/output/movingdistance_60.csv"
 python distance.py
 ```
 
-## To Calculate Optical flow between two frame (for visualization)
+## To Calculate Optical flow between two frames (for visualization)
 
 ```
 python CalculateOF.py
