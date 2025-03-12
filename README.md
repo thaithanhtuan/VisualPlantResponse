@@ -129,8 +129,14 @@ Set the output folder
 ```
 python monitoringKeypoint.py
 ```
+## To Calculate Optical flow between two frame (for visualization)
+
+```
+python CalculateOF.py
+```
 ## Citation
 If this code helps your research, please cite our paper:
+
 	@inproceedings{thaiplantphenomics,
 		title={Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress},
 		author={Thanh Tuan Thai and Jeong-Ho Baek and Sheikh Mansoor and E. M. B. M. Karunathilake and Anh Tuan Le and Sulieman Al-Faifi and Faheem Shehzad Baloch and Jinhyun Ahn and Yong Suk Chung},
