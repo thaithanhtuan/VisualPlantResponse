@@ -97,6 +97,6 @@ https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=shari
 
 # Output trajectories
 <div align="center">
-  <img src="images/trajectories.jpg" width="576px" />
+  <img src="Images/trajectories.jpg" width="576px" />
     <p>Trajectories of plant movement from above video.</p>
 </div>
