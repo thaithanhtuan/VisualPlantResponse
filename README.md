@@ -142,8 +142,8 @@ first frame image
 output label.txt file path
 
 ```
-image_path = "Flower timelapse/Crop1/images/0000_cropped.jpg"  # Replace with your image path
-output_file = "Flower timelapse/Crop1/label_F_L.txt"  # Replace with your desired output file name
+image_path = "VPRPDataset/Crop1/images/0000_cropped.jpg"  # Replace with your image path
+output_file = "VPRPDataset/Crop1/label_F_L.txt"  # Replace with your desired output file name
 ```
 
 Then run the script:
@@ -161,9 +161,9 @@ Set the label.txt file
 Set the output folder
 
 ```
-image_folder = "Flower timelapse/Crop1/"
+image_folder = "VPRPDataset/Crop1/"
 label_file = os.path.join(image_folder, "label_F_L.txt")
-output_folder = "Flower timelapse/Crop1/output"
+output_folder = "VPRPDataset/Crop1/output"
 ```
 
 Then run the script:
@@ -176,11 +176,11 @@ python monitoringKeypoint.py
 Set the input file and output file:
 
 ```
-movingspeed_csv = "Flower timelapse/Crop2/output/movingspeed.csv"
-movingspeed_60_csv = "Flower timelapse/Crop2/output/movingspeed_60.csv"
-movingdistance_csv = "Flower timelapse/Crop2/output/movingdistance.csv"
-input_distance_csv = "Flower timelapse/Crop2/output/movingdistance.csv"
-output_distance_60_csv = "Flower timelapse/Crop2/output/movingdistance_60.csv"
+movingspeed_csv = "VPRPDataset/Crop2/output/movingspeed.csv"
+movingspeed_60_csv = "VPRPDataset/Crop2/output/movingspeed_60.csv"
+movingdistance_csv = "VPRPDataset/Crop2/output/movingdistance.csv"
+input_distance_csv = "VPRPDataset/Crop2/output/movingdistance.csv"
+output_distance_60_csv = "VPRPDataset/Crop2/output/movingdistance_60.csv"
 
 ```
 
