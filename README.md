@@ -108,8 +108,17 @@ https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=shari
     <p>Trajectories of plant movement from above video.</p>
 </div>
 # How to run the code
-## Combine time lapse images into videos
+
+## Combine time lapse images into videos (For Visualization Only)
 Because the camera in Raspberry pi can place in vertical or horizontal direction, we need to set the rotation of the code, after changing to input directory and output video path.
+
+```
+image_folder = "Plant Optical Flow/Code/Out_dir"
+output_video = "Plant Optical Flow/Code/Out_dir/timelapse_bg.mp4"
+fps = 10  # Adjust frame rate as needed
+```
+
+Then run the code: 
 
 ```
 python Make_video.py
@@ -127,15 +136,31 @@ first frame image
 output label.txt file path
 
 ```
+image_path = "Flower timelapse/Crop1/images/0000_cropped.jpg"  # Replace with your image path
+output_file = "Flower timelapse/Crop1/label_F_L.txt"  # Replace with your desired output file name
+```
+
+Then run the script:
+
+```
 python PointSelectTool.py
 ```
 While running: draw the bounding box using mouse to choose the interes points, press the number to choose the label, press 's' for saving reset label.txt and press 'q' for quit.
+
 ## Run the monitoring code
 Set the image timelapse folder
 
 Set the label.txt file
 
 Set the output folder
+
+```
+image_folder = "Flower timelapse/Crop1/"
+label_file = os.path.join(image_folder, "label_F_L.txt")
+output_folder = "Flower timelapse/Crop1/output"
+```
+
+Then run the script:
 
 ```
 python monitoringKeypoint.py
@@ -145,7 +170,8 @@ python monitoringKeypoint.py
 ```
 python CalculateOF.py
 ```
-## Citation
+
+# Citation
 If this code helps your research, please cite our paper:
 
 	@inproceedings{thaiplantphenomics,
@@ -155,5 +181,5 @@ If this code helps your research, please cite our paper:
 		pages={},
 		year={}
 	}
-## License
+# License
 VisualPlant Response is freely available for free non-commercial use, and may be redistributed under these conditions. Please, see the [license](./LICENSE) for further details. For commercial queries, please contact [Prof.Yong Suk Chung](mailto:yschung@jejunu.ac.kr).
