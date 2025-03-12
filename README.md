@@ -103,9 +103,9 @@ https://drive.google.com/file/d/1qUuuHTmpoioDFz2wFSou-HVYfeYRx0Bx/view?usp=shari
 # How to run the code
 ## Combine time lapse images into videos
 Because the camera in Raspberry pi can place in vertical or horizontal direction, we need to set the rotation of the code, after changing to input directory and output video path.
-'''
+```
 python Make_video.py
-'''
+```
 ## Run the interest Point Selection Tool
 Changing the code and set:
 
@@ -113,9 +113,9 @@ first frame image
 
 output label.txt file path
 
-'''
+```
 python PointSelectTool.py
-'''
+```
 While running: draw the bounding box using mouse to choose the interes points, press the number to choose the label, press 's' for saving reset label.txt and press 'q' for quit.
 ## Run the monitoring code
 Set the image timelapse folder
@@ -123,9 +123,9 @@ Set the image timelapse folder
 Set the label.txt file
 
 Set the output folder
-'''
+```
 python monitoringKeypoint.py
-'''
+```
 ## Citation
 If this code helps your research, please cite our paper:
 
@@ -136,3 +136,5 @@ If this code helps your research, please cite our paper:
 		pages={},
 		year={}
 	}
+## License
+VisualPlant Response is freely available for free non-commercial use, and may be redistributed under these conditions. Please, see the [license](./LICENSE) for further details. For commercial queries, please contact [Prof.Yong Suk Chung](mailto:yschung@jejunu.ac.kr).
