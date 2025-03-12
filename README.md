@@ -1,6 +1,13 @@
 # VisualPlantResponse
 This github is generate for the paper "Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress"
+<div align="center">
+  <img src="Images/Point monitoring diagram.drawio.png" width="576px" />
+</div>
 # Google drive link Data
+<div align="center">
+  <img src="Images/System design.png" width="576px" />
+</div>
+
 All Original data and generated data (Crop image, "angle, moving point, moving distance".csv, label.txt) are keep in this drive.
 https://drive.google.com/drive/folders/1r1YIPgXkRS5ZeZN4X3-F8RF-05M9wM_U?usp=sharing
 # Dependency
@@ -109,6 +116,10 @@ python Make_video.py
 ```
 
 ## Run the interest Point Selection Tool
+<div align="center">
+  <img src="Images/Point Selection tool.drawio.png" width="576px" />
+</div>
+
 Changing the code and set:
 
 first frame image
