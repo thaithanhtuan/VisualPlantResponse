@@ -1,7 +1,7 @@
 # VisualPlantResponse
 This github is generate for the paper "Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress"
 <div align="center">
-  <img src="Images/Point monitoring diagram.drawio.png" width="576px" />
+  <img src="Images/Point monitoring diagram.drawio.png" width="100%" />
 </div>
 # Google drive link Data
 <div align="center">
